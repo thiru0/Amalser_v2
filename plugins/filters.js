@@ -61,7 +61,9 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention
 await message.client.sendMessage(message.jid, fs.readFileSync('uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         
-const array = ['Annapi'.'Ayinu'.'Ayoo'.'Bosscoming'.'Chiri'.'Chunk'.'Cortez'.'Enjoy'.'Grouppower'.'Idhu'.'Kannapi'.'Mood'.'Myre'.'Ok'.'Ooh'.'Poori'.'Porasaima'.'Raistar'.'Sarasu'.'Vaxxe'.'Vaxxemon'.'Vaxxesir'.'Amal','caption','Mrng','alive','Di','Bro','amal','avan','converting','Amalser','Allah','bg','help','Hii','odiko','oho','killadi','oo','Fuck','invite','photo','Hi','love','Owner','Group','list','man','Nanba','https','oii','poda','yo','sad','work','set','remove','thukum','poko','myre,','kundan','xmedia','commands','Boss','vava','Myre','Lalitha','start','Adithhari','sing','Hello','Bye','warn','Baby','who','find','power','myr','vanam']
+const array = ['Annapi','Ayinu','Ayoo','Bosscoming','Chiri','Chunk','Cortez','Enjoy','Grouppower','Idhu','Kannapi','Mood','Myre','Ok','Ooh','Poori','Porasaima','Raistar','Sarasu','Vaxxe','Vaxxemon','Vaxxesir','caption','Mrng','alive','Di','Bro','amal','avan','converting','Amal','
+               
+','Allah','bg','help','Hii','odiko','oho','killadi','oo','Fuck','invite','photo','Hi','love','Owner','Group','list','man','Nanba','https','oii','poda','yo','sad','work','set','remove','thukum','poko','myre,','kundan','xmedia','commands','Boss','vava','Myre','Lalitha','start','Adithhari','sing','Hello','Bye','warn','Baby','who','find','power','myr','vanam']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -94,7 +96,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./Amalserv2/menti
 await message.client.sendMessage(message.jid, fs.readFileSync('Amalserv2/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         var uri = encodeURI(match[1])
-const array = ['Annapi'.'Ayinu'.'Ayoo'.'Bosscoming'.'Chiri'.'Chunk'.'Cortez'.'Enjoy'.'Grouppower'.'Idhu'.'Kannapi'.'Mood'.'Myre'.'Ok'.'Ooh'.'Poori'.'Porasaima'.'Raistar'.'Sarasu'.'Vaxxe'.'Vaxxemon'.'Vaxxesir'.'pro','coming','alive','list','go','menu','koii','update','wait','Mrng','Amalser','like','bad','amal','nice','link','😢','Farhan','Hii','ok','myr','set','ayo','i want','help','working','life','Da','fix','https','Amalsir','promiss','sed','old','fek','Kozhi','ee','single','one side','muthe','Aliya','audio','oh','something','Myre','caption','di','love','you','update now','super','iwa','erorr']
+const array = ['Annapi','Ayinu','Ayoo','Bosscoming','Chiri','Chunk','Cortez','Enjoy','Grouppower','Idhu','Kannapi','Mood','Myre','Ok','Ooh','Poori','Porasaima','Raistar','Sarasu','Vaxxe','Vaxxemon','Vaxxesir','pro','coming','alive','list','go','menu','koii','update','wait','Mrng','like','bad','nice','link','😢','Hii','ok','myr','set','ayo','i want','help','working','life','Da','fix','https','promiss','sed','old','fek','Kozhi','ee','single','one side','muthe','Aliya','audio','oh','something','Myre','caption','di','love','you','update now','super','iwa','erorr']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
